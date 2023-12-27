@@ -1,3 +1,4 @@
+// leat code
 public class MaximumAscendingSubarraySum {
     public static void main(String[] args) {
 
@@ -14,6 +15,7 @@ public class MaximumAscendingSubarraySum {
                     sum+=n; 
                      if(sum!=0 && sum>maxSum)maxSum=sum;
                 }
+
                 else if(prev!=0 && maxSum==0){
                    maxSum=prev;
                    sum=n;
